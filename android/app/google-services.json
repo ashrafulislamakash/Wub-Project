@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68832845837",
+    "project_id": "wub-project",
+    "storage_bucket": "wub-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68832845837:android:4a157ec725b9d40f6a7544",
+        "android_client_info": {
+          "package_name": "com.damsonsoft.wub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68832845837-ph67ip5b4atktj3lo4fbmlpe7mvqks0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4oF_s0u5OVF2rKd1eWTfh-V90qSU2Dvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68832845837-ph67ip5b4atktj3lo4fbmlpe7mvqks0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
