@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Wub-tvOS.app"
-               BlueprintName = "Wub-tvOS"
-               ReferencedContainer = "container:Wub.xcodeproj">
+               BuildableName = "WUB-tvOS.app"
+               BlueprintName = "WUB-tvOS"
+               ReferencedContainer = "container:WUB.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Wub-tvOSTests.xctest"
-               BlueprintName = "Wub-tvOSTests"
-               ReferencedContainer = "container:Wub.xcodeproj">
+               BuildableName = "WUB-tvOSTests.xctest"
+               BlueprintName = "WUB-tvOSTests"
+               ReferencedContainer = "container:WUB.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Wub-tvOS.app"
-            BlueprintName = "Wub-tvOS"
-            ReferencedContainer = "container:Wub.xcodeproj">
+            BuildableName = "WUB-tvOS.app"
+            BlueprintName = "WUB-tvOS"
+            ReferencedContainer = "container:WUB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Wub-tvOS.app"
-            BlueprintName = "Wub-tvOS"
-            ReferencedContainer = "container:Wub.xcodeproj">
+            BuildableName = "WUB-tvOS.app"
+            BlueprintName = "WUB-tvOS"
+            ReferencedContainer = "container:WUB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

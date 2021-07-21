@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.socialapp"
+        applicationId "com.damsonsoft.wub"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

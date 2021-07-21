@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* WubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WubTests.m */; };
+		00E356F31AD99517003FC87E /* WUBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WUBTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1F07A64E16CB42A48F10599F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4790BD473B848B497A8A760 /* Lato-Italic.ttf */; };
-		27C9F9C4349E541D91F9DC69 /* libPods-Wub-WubTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABBB032731FA757A2BB8F15 /* libPods-Wub-WubTests.a */; };
+		27C9F9C4349E541D91F9DC69 /* libPods-WUB-WUBTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABBB032731FA757A2BB8F15 /* libPods-WUB-WUBTests.a */; };
 		2AAA585641284E139FC62926 /* Kufam-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F876B449335E42E0A79467A3 /* Kufam-SemiBoldItalic.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* WubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WubTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* WUBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WUBTests.m */; };
 		32F9A45525179C89007554B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32F9A45425179C89007554B8 /* GoogleService-Info.plist */; };
 		643E1A02E6A6402BAF43EDFF /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8B7E746378445908B8C4037 /* Lato-Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		890993E5A6DADABB906FB217 /* libPods-Wub-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 004D9D4851476C29E8A8FD7B /* libPods-Wub-tvOSTests.a */; };
-		91097856B481267B42C59AF8 /* libPods-Wub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F922806D2B2E5FB297B5469E /* libPods-Wub.a */; };
+		890993E5A6DADABB906FB217 /* libPods-WUB-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 004D9D4851476C29E8A8FD7B /* libPods-WUB-tvOSTests.a */; };
+		91097856B481267B42C59AF8 /* libPods-WUB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F922806D2B2E5FB297B5469E /* libPods-WUB.a */; };
 		965E11B4A02A402C9D48192E /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF224FDECB44F98B761C9B0 /* Lato-BoldItalic.ttf */; };
 		C3C15CADA3E7477EBC56F950 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8572585148441EFBD940993 /* Lato-Regular.ttf */; };
-		E8FC30BF6D4E110D2C91BC93 /* libPods-Wub-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C9D50B663603E16455C53 /* libPods-Wub-tvOS.a */; };
+		E8FC30BF6D4E110D2C91BC93 /* libPods-WUB-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C9D50B663603E16455C53 /* libPods-WUB-tvOS.a */; };
+		A2A4782A15334C25BC3D682D /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 456999A9290246A5AA6C62CD /* AntDesign.ttf */; };
+		E5F020D670B247BF911AC437 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE16351E2EF7435AA09D8600 /* Entypo.ttf */; };
+		B3CEC321A4ED4D48A87012AD /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27CC1FE9660A446788C7068E /* EvilIcons.ttf */; };
+		932746FEF3A6495D9740BC16 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA3337AD161A45F49527AF41 /* Feather.ttf */; };
+		55852667D82740848406A4AD /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB91AC8C5AD7494A95633EE0 /* FontAwesome.ttf */; };
+		3B50DC46E6954DF2ADB6ACCD /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 316EA84BD0BD4C29A6074454 /* FontAwesome5_Brands.ttf */; };
+		D2C4B4F2A1064280AE1BB218 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C74F5F746BA249E894732EC3 /* FontAwesome5_Regular.ttf */; };
+		333F0BADB44B49D691982E17 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACF4270AB3F0481D8B7DC10A /* FontAwesome5_Solid.ttf */; };
+		42B6DE0E3F3A42818C76111F /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1538A0F817364022932656E5 /* Fontisto.ttf */; };
+		EE802A8C589B42E6999E66EA /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA060B6BF312423F99726AE4 /* Foundation.ttf */; };
+		06D440D129334F96AAC43DE0 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B046D699925478E95656829 /* Ionicons.ttf */; };
+		0FB4DE5BF620474391EBF481 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC813C4D89044258A50BE3F8 /* MaterialCommunityIcons.ttf */; };
+		7260AC10A7084F55A18EF60F /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EC229A4D64B41358731D270 /* MaterialIcons.ttf */; };
+		755A8B6ADB07466CAF318272 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A452DC44CD2F4BA39CEDF0D8 /* Octicons.ttf */; };
+		BF58501E9E5241598D1639E4 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76FE72698AC9421E99B75CDD /* SimpleLineIcons.ttf */; };
+		0C49E199560A4B149CB7FE83 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1D1BFE8A24644A591A49D6B /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,51 +50,67 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Wub;
+			remoteInfo = WUB;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Wub-tvOS";
+			remoteInfo = "WUB-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004D9D4851476C29E8A8FD7B /* libPods-Wub-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wub-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		004D9D4851476C29E8A8FD7B /* libPods-WUB-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WUB-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* WubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* WUBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WUBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* WubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WubTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Wub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Wub/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Wub/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Wub/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Wub/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Wub/main.m; sourceTree = "<group>"; };
-		2B97C231A0F27089F7200239 /* Pods-Wub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wub.debug.xcconfig"; path = "Target Support Files/Pods-Wub/Pods-Wub.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Wub-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wub-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Wub-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wub-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* WUBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUBTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* WUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WUB/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = WUB/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WUB/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WUB/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WUB/main.m; sourceTree = "<group>"; };
+		2B97C231A0F27089F7200239 /* Pods-WUB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUB.debug.xcconfig"; path = "Target Support Files/Pods-WUB/Pods-WUB.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* WUB-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WUB-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* WUB-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WUB-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF224FDECB44F98B761C9B0 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BoldItalic.ttf"; path = "../assets/fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
 		32F9A45425179C89007554B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
-		410C93F9B5FD1A4AD2B923BD /* Pods-Wub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wub.release.xcconfig"; path = "Target Support Files/Pods-Wub/Pods-Wub.release.xcconfig"; sourceTree = "<group>"; };
-		628E4F53BE66128F14A376E8 /* Pods-Wub-WubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wub-WubTests.release.xcconfig"; path = "Target Support Files/Pods-Wub-WubTests/Pods-Wub-WubTests.release.xcconfig"; sourceTree = "<group>"; };
-		7A0FC841B151EC77511B6932 /* Pods-Wub-WubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wub-WubTests.debug.xcconfig"; path = "Target Support Files/Pods-Wub-WubTests/Pods-Wub-WubTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7ABBB032731FA757A2BB8F15 /* libPods-Wub-WubTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wub-WubTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B6EFBA436BBAD1715CABF94 /* Pods-Wub-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wub-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Wub-tvOS/Pods-Wub-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Wub/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		88817B399E7CAEA7EE753D35 /* Pods-Wub-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wub-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Wub-tvOSTests/Pods-Wub-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		410C93F9B5FD1A4AD2B923BD /* Pods-WUB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUB.release.xcconfig"; path = "Target Support Files/Pods-WUB/Pods-WUB.release.xcconfig"; sourceTree = "<group>"; };
+		628E4F53BE66128F14A376E8 /* Pods-WUB-WUBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUB-WUBTests.release.xcconfig"; path = "Target Support Files/Pods-WUB-WUBTests/Pods-WUB-WUBTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A0FC841B151EC77511B6932 /* Pods-WUB-WUBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUB-WUBTests.debug.xcconfig"; path = "Target Support Files/Pods-WUB-WUBTests/Pods-WUB-WUBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ABBB032731FA757A2BB8F15 /* libPods-WUB-WUBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WUB-WUBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6EFBA436BBAD1715CABF94 /* Pods-WUB-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUB-tvOS.release.xcconfig"; path = "Target Support Files/Pods-WUB-tvOS/Pods-WUB-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WUB/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88817B399E7CAEA7EE753D35 /* Pods-WUB-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUB-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-WUB-tvOSTests/Pods-WUB-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4790BD473B848B497A8A760 /* Lato-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Italic.ttf"; path = "../assets/fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
 		A8B7E746378445908B8C4037 /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
-		B2A485336C7DD7E526ACA8B5 /* Pods-Wub-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wub-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Wub-tvOSTests/Pods-Wub-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		B46C9D50B663603E16455C53 /* libPods-Wub-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wub-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A485336C7DD7E526ACA8B5 /* Pods-WUB-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUB-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-WUB-tvOSTests/Pods-WUB-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B46C9D50B663603E16455C53 /* libPods-WUB-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WUB-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8572585148441EFBD940993 /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
-		CD83F161FBD8A394B345CE9C /* Pods-Wub-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wub-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Wub-tvOS/Pods-Wub-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CD83F161FBD8A394B345CE9C /* Pods-WUB-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUB-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-WUB-tvOS/Pods-WUB-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F876B449335E42E0A79467A3 /* Kufam-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Kufam-SemiBoldItalic.ttf"; path = "../assets/fonts/Kufam-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		F922806D2B2E5FB297B5469E /* libPods-Wub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F922806D2B2E5FB297B5469E /* libPods-WUB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WUB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		456999A9290246A5AA6C62CD /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CE16351E2EF7435AA09D8600 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27CC1FE9660A446788C7068E /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA3337AD161A45F49527AF41 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB91AC8C5AD7494A95633EE0 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		316EA84BD0BD4C29A6074454 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C74F5F746BA249E894732EC3 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACF4270AB3F0481D8B7DC10A /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1538A0F817364022932656E5 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA060B6BF312423F99726AE4 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B046D699925478E95656829 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC813C4D89044258A50BE3F8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3EC229A4D64B41358731D270 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A452DC44CD2F4BA39CEDF0D8 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76FE72698AC9421E99B75CDD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1D1BFE8A24644A591A49D6B /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C9F9C4349E541D91F9DC69 /* libPods-Wub-WubTests.a in Frameworks */,
+				27C9F9C4349E541D91F9DC69 /* libPods-WUB-WUBTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91097856B481267B42C59AF8 /* libPods-Wub.a in Frameworks */,
+				91097856B481267B42C59AF8 /* libPods-WUB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FC30BF6D4E110D2C91BC93 /* libPods-Wub-tvOS.a in Frameworks */,
+				E8FC30BF6D4E110D2C91BC93 /* libPods-WUB-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,20 +142,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890993E5A6DADABB906FB217 /* libPods-Wub-tvOSTests.a in Frameworks */,
+				890993E5A6DADABB906FB217 /* libPods-WUB-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* WubTests */ = {
+		00E356EF1AD99517003FC87E /* WUBTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* WubTests.m */,
+				00E356F21AD99517003FC87E /* WUBTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = WubTests;
+			path = WUBTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -134,7 +166,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Wub */ = {
+		13B07FAE1A68108700A75B9A /* WUB */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -145,7 +177,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Wub;
+			name = WUB;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -153,10 +185,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				F922806D2B2E5FB297B5469E /* libPods-Wub.a */,
-				7ABBB032731FA757A2BB8F15 /* libPods-Wub-WubTests.a */,
-				B46C9D50B663603E16455C53 /* libPods-Wub-tvOS.a */,
-				004D9D4851476C29E8A8FD7B /* libPods-Wub-tvOSTests.a */,
+				F922806D2B2E5FB297B5469E /* libPods-WUB.a */,
+				7ABBB032731FA757A2BB8F15 /* libPods-WUB-WUBTests.a */,
+				B46C9D50B663603E16455C53 /* libPods-WUB-tvOS.a */,
+				004D9D4851476C29E8A8FD7B /* libPods-WUB-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,6 +201,22 @@
 				2DF224FDECB44F98B761C9B0 /* Lato-BoldItalic.ttf */,
 				A4790BD473B848B497A8A760 /* Lato-Italic.ttf */,
 				C8572585148441EFBD940993 /* Lato-Regular.ttf */,
+				456999A9290246A5AA6C62CD /* AntDesign.ttf */,
+				CE16351E2EF7435AA09D8600 /* Entypo.ttf */,
+				27CC1FE9660A446788C7068E /* EvilIcons.ttf */,
+				EA3337AD161A45F49527AF41 /* Feather.ttf */,
+				DB91AC8C5AD7494A95633EE0 /* FontAwesome.ttf */,
+				316EA84BD0BD4C29A6074454 /* FontAwesome5_Brands.ttf */,
+				C74F5F746BA249E894732EC3 /* FontAwesome5_Regular.ttf */,
+				ACF4270AB3F0481D8B7DC10A /* FontAwesome5_Solid.ttf */,
+				1538A0F817364022932656E5 /* Fontisto.ttf */,
+				CA060B6BF312423F99726AE4 /* Foundation.ttf */,
+				0B046D699925478E95656829 /* Ionicons.ttf */,
+				BC813C4D89044258A50BE3F8 /* MaterialCommunityIcons.ttf */,
+				3EC229A4D64B41358731D270 /* MaterialIcons.ttf */,
+				A452DC44CD2F4BA39CEDF0D8 /* Octicons.ttf */,
+				76FE72698AC9421E99B75CDD /* SimpleLineIcons.ttf */,
+				D1D1BFE8A24644A591A49D6B /* Zocial.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -176,14 +224,14 @@
 		5FC4F8D5DBAD1FACA5AD7CDD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2B97C231A0F27089F7200239 /* Pods-Wub.debug.xcconfig */,
-				410C93F9B5FD1A4AD2B923BD /* Pods-Wub.release.xcconfig */,
-				7A0FC841B151EC77511B6932 /* Pods-Wub-WubTests.debug.xcconfig */,
-				628E4F53BE66128F14A376E8 /* Pods-Wub-WubTests.release.xcconfig */,
-				CD83F161FBD8A394B345CE9C /* Pods-Wub-tvOS.debug.xcconfig */,
-				7B6EFBA436BBAD1715CABF94 /* Pods-Wub-tvOS.release.xcconfig */,
-				88817B399E7CAEA7EE753D35 /* Pods-Wub-tvOSTests.debug.xcconfig */,
-				B2A485336C7DD7E526ACA8B5 /* Pods-Wub-tvOSTests.release.xcconfig */,
+				2B97C231A0F27089F7200239 /* Pods-WUB.debug.xcconfig */,
+				410C93F9B5FD1A4AD2B923BD /* Pods-WUB.release.xcconfig */,
+				7A0FC841B151EC77511B6932 /* Pods-WUB-WUBTests.debug.xcconfig */,
+				628E4F53BE66128F14A376E8 /* Pods-WUB-WUBTests.release.xcconfig */,
+				CD83F161FBD8A394B345CE9C /* Pods-WUB-tvOS.debug.xcconfig */,
+				7B6EFBA436BBAD1715CABF94 /* Pods-WUB-tvOS.release.xcconfig */,
+				88817B399E7CAEA7EE753D35 /* Pods-WUB-tvOSTests.debug.xcconfig */,
+				B2A485336C7DD7E526ACA8B5 /* Pods-WUB-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -199,9 +247,9 @@
 			isa = PBXGroup;
 			children = (
 				32F9A45425179C89007554B8 /* GoogleService-Info.plist */,
-				13B07FAE1A68108700A75B9A /* Wub */,
+				13B07FAE1A68108700A75B9A /* WUB */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* WubTests */,
+				00E356EF1AD99517003FC87E /* WUBTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				5FC4F8D5DBAD1FACA5AD7CDD /* Pods */,
@@ -215,10 +263,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Wub.app */,
-				00E356EE1AD99517003FC87E /* WubTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Wub-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Wub-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* WUB.app */,
+				00E356EE1AD99517003FC87E /* WUBTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* WUB-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* WUB-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,9 +274,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* WubTests */ = {
+		00E356ED1AD99517003FC87E /* WUBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WubTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WUBTests" */;
 			buildPhases = (
 				CA10E6DDA893B9FA7C904A8C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -241,14 +289,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = WubTests;
-			productName = WubTests;
-			productReference = 00E356EE1AD99517003FC87E /* WubTests.xctest */;
+			name = WUBTests;
+			productName = WUBTests;
+			productReference = 00E356EE1AD99517003FC87E /* WUBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Wub */ = {
+		13B07F861A680F5B00A75B9A /* WUB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Wub" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WUB" */;
 			buildPhases = (
 				A81B370C5B67F0697A4FE5B7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -263,14 +311,14 @@
 			);
 			dependencies = (
 			);
-			name = Wub;
-			productName = Wub;
-			productReference = 13B07F961A680F5B00A75B9A /* Wub.app */;
+			name = WUB;
+			productName = WUB;
+			productReference = 13B07F961A680F5B00A75B9A /* WUB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Wub-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* WUB-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Wub-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WUB-tvOS" */;
 			buildPhases = (
 				87FC2B042567CF59D807C3F3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -283,14 +331,14 @@
 			);
 			dependencies = (
 			);
-			name = "Wub-tvOS";
-			productName = "Wub-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Wub-tvOS.app */;
+			name = "WUB-tvOS";
+			productName = "WUB-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* WUB-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Wub-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* WUB-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Wub-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WUB-tvOSTests" */;
 			buildPhases = (
 				A45E688142408E07F79559B2 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -302,9 +350,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Wub-tvOSTests";
-			productName = "Wub-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Wub-tvOSTests.xctest */;
+			name = "WUB-tvOSTests";
+			productName = "WUB-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* WUB-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -333,7 +381,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Wub" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WUB" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -346,10 +394,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Wub */,
-				00E356ED1AD99517003FC87E /* WubTests */,
-				2D02E47A1E0B4A5D006451C7 /* Wub-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Wub-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* WUB */,
+				00E356ED1AD99517003FC87E /* WUBTests */,
+				2D02E47A1E0B4A5D006451C7 /* WUB-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* WUB-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,6 +422,22 @@
 				965E11B4A02A402C9D48192E /* Lato-BoldItalic.ttf in Resources */,
 				1F07A64E16CB42A48F10599F /* Lato-Italic.ttf in Resources */,
 				C3C15CADA3E7477EBC56F950 /* Lato-Regular.ttf in Resources */,
+				A2A4782A15334C25BC3D682D /* AntDesign.ttf in Resources */,
+				E5F020D670B247BF911AC437 /* Entypo.ttf in Resources */,
+				B3CEC321A4ED4D48A87012AD /* EvilIcons.ttf in Resources */,
+				932746FEF3A6495D9740BC16 /* Feather.ttf in Resources */,
+				55852667D82740848406A4AD /* FontAwesome.ttf in Resources */,
+				3B50DC46E6954DF2ADB6ACCD /* FontAwesome5_Brands.ttf in Resources */,
+				D2C4B4F2A1064280AE1BB218 /* FontAwesome5_Regular.ttf in Resources */,
+				333F0BADB44B49D691982E17 /* FontAwesome5_Solid.ttf in Resources */,
+				42B6DE0E3F3A42818C76111F /* Fontisto.ttf in Resources */,
+				EE802A8C589B42E6999E66EA /* Foundation.ttf in Resources */,
+				06D440D129334F96AAC43DE0 /* Ionicons.ttf in Resources */,
+				0FB4DE5BF620474391EBF481 /* MaterialCommunityIcons.ttf in Resources */,
+				7260AC10A7084F55A18EF60F /* MaterialIcons.ttf in Resources */,
+				755A8B6ADB07466CAF318272 /* Octicons.ttf in Resources */,
+				BF58501E9E5241598D1639E4 /* SimpleLineIcons.ttf in Resources */,
+				0C49E199560A4B149CB7FE83 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +493,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wub-WubTests/Pods-Wub-WubTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-WUB-WUBTests/Pods-WUB-WUBTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -476,7 +540,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wub-WubTests/Pods-Wub-WubTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WUB-WUBTests/Pods-WUB-WUBTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		87FC2B042567CF59D807C3F3 /* [CP] Check Pods Manifest.lock */ = {
@@ -494,7 +558,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wub-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WUB-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -516,7 +580,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wub-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WUB-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -538,7 +602,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wub-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WUB-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -570,7 +634,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wub-WubTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WUB-WUBTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -583,7 +647,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wub/Pods-Wub-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-WUB/Pods-WUB-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -630,7 +694,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wub/Pods-Wub-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WUB/Pods-WUB-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -678,7 +742,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* WubTests.m in Sources */,
+				00E356F31AD99517003FC87E /* WUBTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,7 +768,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* WubTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* WUBTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,12 +777,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Wub */;
+			target = 13B07F861A680F5B00A75B9A /* WUB */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Wub-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* WUB-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -726,14 +790,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A0FC841B151EC77511B6932 /* Pods-Wub-WubTests.debug.xcconfig */;
+			baseConfigurationReference = 7A0FC841B151EC77511B6932 /* Pods-WUB-WUBTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = WubTests/Info.plist;
+				INFOPLIST_FILE = WUBTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -743,17 +807,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wub.app/Wub";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WUB.app/WUB";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 628E4F53BE66128F14A376E8 /* Pods-Wub-WubTests.release.xcconfig */;
+			baseConfigurationReference = 628E4F53BE66128F14A376E8 /* Pods-WUB-WUBTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = WubTests/Info.plist;
+				INFOPLIST_FILE = WUBTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -763,19 +827,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wub.app/Wub";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WUB.app/WUB";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B97C231A0F27089F7200239 /* Pods-Wub.debug.xcconfig */;
+			baseConfigurationReference = 2B97C231A0F27089F7200239 /* Pods-WUB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Wub/Info.plist;
+				INFOPLIST_FILE = WUB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -783,7 +847,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Wub;
+				PRODUCT_NAME = WUB;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -792,12 +856,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 410C93F9B5FD1A4AD2B923BD /* Pods-Wub.release.xcconfig */;
+			baseConfigurationReference = 410C93F9B5FD1A4AD2B923BD /* Pods-WUB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Wub/Info.plist;
+				INFOPLIST_FILE = WUB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -805,7 +869,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Wub;
+				PRODUCT_NAME = WUB;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -813,7 +877,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD83F161FBD8A394B345CE9C /* Pods-Wub-tvOS.debug.xcconfig */;
+			baseConfigurationReference = CD83F161FBD8A394B345CE9C /* Pods-WUB-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -824,14 +888,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Wub-tvOS/Info.plist";
+				INFOPLIST_FILE = "WUB-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Wub-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.WUB-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -841,7 +905,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B6EFBA436BBAD1715CABF94 /* Pods-Wub-tvOS.release.xcconfig */;
+			baseConfigurationReference = 7B6EFBA436BBAD1715CABF94 /* Pods-WUB-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -852,14 +916,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Wub-tvOS/Info.plist";
+				INFOPLIST_FILE = "WUB-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Wub-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.WUB-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -869,7 +933,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88817B399E7CAEA7EE753D35 /* Pods-Wub-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 88817B399E7CAEA7EE753D35 /* Pods-WUB-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -879,24 +943,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Wub-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "WUB-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Wub-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.WUB-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wub-tvOS.app/Wub-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WUB-tvOS.app/WUB-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2A485336C7DD7E526ACA8B5 /* Pods-Wub-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = B2A485336C7DD7E526ACA8B5 /* Pods-WUB-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -906,17 +970,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Wub-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "WUB-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Wub-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.WUB-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wub-tvOS.app/Wub-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WUB-tvOS.app/WUB-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1037,7 +1101,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WubTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WUBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1046,7 +1110,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Wub" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WUB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1055,7 +1119,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Wub-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WUB-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1064,7 +1128,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Wub-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WUB-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1073,7 +1137,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Wub" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WUB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
