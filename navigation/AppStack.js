@@ -1,11 +1,11 @@
 import React from 'react';
-import { View, } from 'react-native';
+import { View, StyleSheet, Image, Text, TouchableOpacity } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-
+import LinearGradient from 'react-native-linear-gradient';
+import { COLORS, icons, } from "../constants"
 import HomeScreen from '../screens/HomeScreen';
 import ChatScreen from '../screens/ChatScreen';
 import ProfileScreen from '../screens/ProfileScreen';
@@ -13,8 +13,48 @@ import AddPostScreen from '../screens/AddPostScreen';
 import MessagesScreen from '../screens/MessagesScreen';
 import EditProfileScreen from '../screens/EditProfileScreen';
 
+import DrawerNavigation from "./DrawerNavigation"
+
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
+
+
+
+const CustomButton = ({ children, onPress }) => {
+  return (
+    <TouchableOpacity
+      style={{
+        justifyContent: 'center',
+        alignItems: 'center',
+        ...styles.shadow
+      }}
+      onPress={onPress}
+    >
+
+      <LinearGradient
+        colors={[COLORS.primary, COLORS.secondary]}
+        style={{
+          bottom: 5,
+          width: 70,
+          height: 70,
+          borderRadius: 35,
+          shadowColor: COLORS.lightGray,
+          shadowOffset: {
+            width: 0,
+            height: 5,
+          },
+          shadowOpacity: 0.25,
+          shadowRadius: 10,
+          elevation: 15,
+        }}>
+        {children}
+      </LinearGradient >
+
+
+    </TouchableOpacity >
+  )
+}
+
 
 const FeedStack = ({ navigation }) => (
   <Stack.Navigator>
@@ -33,6 +73,17 @@ const FeedStack = ({ navigation }) => (
           elevation: 0,
         },
         headerRight: () => (
+          <View style={{ marginRight: 10 }}>
+            <FontAwesome5.Button
+              name="plus"
+              size={22}
+              backgroundColor="#fff"
+              color="#2e64e5"
+              onPress={() => navigation.navigate('AddPost')}
+            />
+          </View>
+        ),
+        headerLeft: () => (
           <View style={{ marginRight: 10 }}>
             <FontAwesome5.Button
               name="plus"
@@ -140,23 +191,48 @@ const AppStack = () => {
 
   return (
     <Tab.Navigator
+      initialRouteName="Home"
       tabBarOptions={{
-        activeTintColor: '#2e64e5',
+        showLabel: false,
+        style: {
+          position: 'absolute',
+          left: 16,
+          bottom: 16,
+          right: 16,
+          borderTopWidth: 0,
+          backgroundColor: "#ffffff",
+          borderRadius: 15,
+          height: 90,
+          ...styles.shadow
+        }
+
       }}>
+
+
       <Tab.Screen
         name="Home"
         component={FeedStack}
-        options={({ route }) => ({
-          tabBarLabel: 'Home',
-          // tabBarVisible: route.state && route.state.index === 0,
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons
-              name="home-outline"
-              color={color}
-              size={size}
-            />
-          ),
-        })}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View style={{ alignItems: "center", justifyContent: 'center' }}>
+              <Image
+                source={icons.Home}
+                resizeMode="contain"
+                style={{
+                  width: 25,
+                  height: 25,
+                  tintColor: focused ? COLORS.primary : COLORS.secondary
+                }}
+              />
+
+              <Text
+                style={{ color: focused ? COLORS.primary : COLORS.secondary, fontSize: 12 }}
+
+              >Home</Text>
+            </View>
+          )
+        }}
+
       />
       <Tab.Screen
         name="Messages"
@@ -164,27 +240,120 @@ const AppStack = () => {
         options={({ route }) => ({
           tabBarVisible: getTabBarVisibility(route),
 
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons
-              name="chatbox-ellipses-outline"
-              color={color}
-              size={size}
-            />
-          ),
+          tabBarIcon: ({ focused }) => (
+            <View style={{ alignItems: "center", justifyContent: 'center' }}>
+              <Image
+                source={icons.like}
+                resizeMode="contain"
+                style={{
+                  width: 25,
+                  height: 25,
+                  tintColor: focused ? COLORS.primary : COLORS.secondary
+                }}
+              />
+
+              <Text
+                style={{ color: focused ? COLORS.primary : COLORS.secondary, fontSize: 12 }}
+
+              > Love</Text>
+            </View>
+          )
         })}
       />
+
+
+
       <Tab.Screen
         name="Profile"
         component={ProfileStack}
         options={{
           // tabBarLabel: 'Home',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="person-outline" color={color} size={size} />
+          tabBarIcon: ({ focused }) => (
+            <View style={{ alignItems: "center", justifyContent: 'center' }}>
+              <Image
+                source={icons.Add}
+                resizeMode="contain"
+                style={{
+                  width: 30,
+                  height: 30,
+                  tintColor: focused ? COLORS.white : COLORS.white
+                }}
+              />
+            </View>
           ),
+
+          tabBarButton: (props) => (
+            <CustomButton {...props} />
+          )
         }}
       />
+
+      <Tab.Screen
+        name="C"
+        component={MessagesScreen}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View style={{ alignItems: "center", justifyContent: 'center' }}>
+              <Image
+                source={icons.search}
+                resizeMode="contain"
+                style={{
+                  width: 25,
+                  height: 25,
+                  tintColor: focused ? COLORS.primary : COLORS.secondary
+                }}
+              />
+
+              <Text
+                style={{ color: focused ? COLORS.primary : COLORS.secondary, fontSize: 12 }}
+
+              >Search</Text>
+            </View>
+          )
+        }}
+      />
+      <Tab.Screen
+        name="Profile5"
+        component={DrawerNavigation}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View style={{ alignItems: "center", justifyContent: 'center' }}>
+              <Image
+                source={icons.user}
+                resizeMode="contain"
+                style={{
+                  width: 25,
+                  height: 25,
+                  tintColor: focused ? COLORS.primary : COLORS.secondary
+                }}
+              />
+
+              <Text
+                style={{ color: focused ? COLORS.primary : COLORS.secondary, fontSize: 12 }}
+
+              > Profile </Text>
+            </View>
+          )
+        }}
+      />
+
+
     </Tab.Navigator>
   );
 };
 
 export default AppStack;
+
+
+const styles = StyleSheet.create({
+  shadow: {
+    shadowColor: COLORS.lightGray,
+    shadowOffset: {
+      width: 0,
+      height: 10
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 3.5,
+    elevation: 10
+  }
+})
