@@ -13,7 +13,6 @@ import AddPostScreen from '../screens/AddPostScreen';
 import MessagesScreen from '../screens/MessagesScreen';
 import EditProfileScreen from '../screens/EditProfileScreen';
 
-import DrawerNavigation from "./DrawerNavigation"
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -34,7 +33,7 @@ const CustomButton = ({ children, onPress }) => {
       <LinearGradient
         colors={[COLORS.primary, COLORS.secondary]}
         style={{
-          bottom: 5,
+          bottom: 30,
           width: 70,
           height: 70,
           borderRadius: 35,
@@ -72,21 +71,22 @@ const FeedStack = ({ navigation }) => (
           shadowColor: '#fff',
           elevation: 0,
         },
-        headerRight: () => (
-          <View style={{ marginRight: 10 }}>
-            <FontAwesome5.Button
-              name="plus"
-              size={22}
-              backgroundColor="#fff"
-              color="#2e64e5"
-              onPress={() => navigation.navigate('AddPost')}
-            />
-          </View>
-        ),
+
         headerLeft: () => (
           <View style={{ marginRight: 10 }}>
             <FontAwesome5.Button
-              name="plus"
+              name="bars"
+              size={22}
+              backgroundColor="#fff"
+              color="#2e64e5"
+              onPress={() => navigation.openDrawer()}
+            />
+          </View>
+        ),
+        headerRight: () => (
+          <View style={{ marginRight: 10 }}>
+            <FontAwesome5.Button
+              name="comment"
               size={22}
               backgroundColor="#fff"
               color="#2e64e5"
@@ -96,6 +96,9 @@ const FeedStack = ({ navigation }) => (
         ),
       }}
     />
+
+
+
     <Stack.Screen
       name="AddPost"
       component={AddPostScreen}
@@ -196,9 +199,9 @@ const AppStack = () => {
         showLabel: false,
         style: {
           position: 'absolute',
-          left: 16,
-          bottom: 16,
-          right: 16,
+          left: 8,
+          bottom: 8,
+          right: 8,
           borderTopWidth: 0,
           backgroundColor: "#ffffff",
           borderRadius: 15,
@@ -265,7 +268,7 @@ const AppStack = () => {
 
       <Tab.Screen
         name="Profile"
-        component={ProfileStack}
+        component={AddPostScreen}
         options={{
           // tabBarLabel: 'Home',
           tabBarIcon: ({ focused }) => (
@@ -314,7 +317,7 @@ const AppStack = () => {
       />
       <Tab.Screen
         name="Profile5"
-        component={DrawerNavigation}
+        component={ProfileStack}
         options={{
           tabBarIcon: ({ focused }) => (
             <View style={{ alignItems: "center", justifyContent: 'center' }}>

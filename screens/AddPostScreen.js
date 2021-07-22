@@ -110,7 +110,7 @@ const AddPostScreen = () => {
       );
 
       setTransferred(
-        Math.round(taskSnapshot.bytesTransferred / taskSnapshot.totalBytes) *100,
+        Math.round(taskSnapshot.bytesTransferred / taskSnapshot.totalBytes) * 100,
       );
     });
 
@@ -188,5 +188,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
     height: 22,
     color: 'white',
+    bottom: 50
   },
 });

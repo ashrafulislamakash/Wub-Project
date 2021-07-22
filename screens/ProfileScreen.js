@@ -8,7 +8,6 @@ import {
   ScrollView,
   SafeAreaView,
 } from 'react-native';
-import FormButton from '../components/FormButton';
 import { AuthContext } from '../navigation/AuthProvider';
 
 import firestore from '@react-native-firebase/firestore';

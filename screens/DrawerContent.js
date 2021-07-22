@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { View, StyleSheet } from 'react-native';
 
 import {
@@ -23,7 +23,12 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { COLORS } from '../constants';
 
+import { AuthContext } from '../navigation/AuthProvider';
+
 export function DrawerContent(props) {
+
+    const { user, logout } = useContext(AuthContext);
+
 
     return (
         <View style={{ flex: 1 }}>
@@ -182,7 +187,7 @@ export function DrawerContent(props) {
                         />
                     )}
                     label="Sign Out"
-                    onPress={() => { signOut() }}
+                    onPress={() => { logout() }}
                 />
             </Drawer.Section>
         </View>
