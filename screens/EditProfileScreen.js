@@ -223,8 +223,8 @@ const EditProfileScreen = () => {
                       ? image
                       : userData
                         ? userData.userImg ||
-                        'https://lh5.googleusercontent.com/-b0PKyNuQv5s/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclxAM4M1SCBGAO7Rp-QP6zgBEUkOQ/s96-c/photo.jpg'
-                        : 'https://lh5.googleusercontent.com/-b0PKyNuQv5s/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclxAM4M1SCBGAO7Rp-QP6zgBEUkOQ/s96-c/photo.jpg',
+                        'https://studybarta.files.wordpress.com/2018/04/wub-logo.png'
+                        : 'https://studybarta.files.wordpress.com/2018/04/wub-logo.png',
                   }}
                   style={{ height: 100, width: 100 }}
                   imageStyle={{ borderRadius: 15 }}>
@@ -343,7 +343,7 @@ export default EditProfileScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: "#E3EDF7",
   },
   commandButton: {
     padding: 15,

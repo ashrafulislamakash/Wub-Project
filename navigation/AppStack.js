@@ -6,6 +6,8 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import LinearGradient from 'react-native-linear-gradient';
 import { COLORS, icons, } from "../constants"
+
+
 import HomeScreen from '../screens/HomeScreen';
 import ChatScreen from '../screens/ChatScreen';
 import ProfileScreen from '../screens/ProfileScreen';
@@ -56,6 +58,7 @@ const CustomButton = ({ children, onPress }) => {
 
 
 const FeedStack = ({ navigation }) => (
+
   <Stack.Navigator>
     <Stack.Screen
       name="WUB"
@@ -96,8 +99,6 @@ const FeedStack = ({ navigation }) => (
         ),
       }}
     />
-
-
 
     <Stack.Screen
       name="AddPost"
@@ -186,7 +187,7 @@ const AppStack = () => {
       ? route.state.routes[route.state.index].name
       : '';
 
-    if (routeName === 'Chat') {
+    if (routeName === 'MessageStack') {
       return false;
     }
     return true;
@@ -270,7 +271,6 @@ const AppStack = () => {
         name="Profile"
         component={AddPostScreen}
         options={{
-          // tabBarLabel: 'Home',
           tabBarIcon: ({ focused }) => (
             <View style={{ alignItems: "center", justifyContent: 'center' }}>
               <Image
@@ -333,7 +333,6 @@ const AppStack = () => {
 
               <Text
                 style={{ color: focused ? COLORS.primary : COLORS.secondary, fontSize: 12 }}
-
               > Profile </Text>
             </View>
           )
@@ -350,13 +349,13 @@ export default AppStack;
 
 const styles = StyleSheet.create({
   shadow: {
-    shadowColor: COLORS.lightGray,
+    shadowColor: "#FFFFFF",
     shadowOffset: {
       width: 0,
-      height: 10
+      height: 5
     },
-    shadowOpacity: 0.15,
-    shadowRadius: 3.5,
-    elevation: 10
+    shadowOpacity: 0.34,
+    shadowRadius: 6.27,
+    elevation: 10,
   }
 })

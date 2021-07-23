@@ -6,6 +6,7 @@ export const InputWrapper = styled.View`
     align-items: center;
     width: 100%;
     background-color: #E3EDF7;
+ 
 `;
 
 export const InputField = styled.TextInput`
@@ -15,6 +16,8 @@ export const InputField = styled.TextInput`
     text-align: center;
     width:90%;
     margin-bottom: 15px;
+    background-color: #FFFFFF;
+
 `;
 
 export const AddImage = styled.Image`
@@ -40,5 +43,5 @@ export const SubmitBtnText = styled.Text`
     font-size: 18px;
     font-family: 'Lato-Bold';
     font-weight: bold;
-    color: #2e64e5;
+    color: #FFFFFF;
 `;

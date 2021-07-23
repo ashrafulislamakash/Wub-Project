@@ -1,6 +1,6 @@
-import React, {useState, useEffect, useCallback} from 'react';
-import {View,StyleSheet} from 'react-native';
-import {Bubble, GiftedChat, Send} from 'react-native-gifted-chat';
+import React, { useState, useEffect, useCallback } from 'react';
+import { View, StyleSheet } from 'react-native';
+import { Bubble, GiftedChat, Send } from 'react-native-gifted-chat';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
@@ -44,7 +44,7 @@ const ChatScreen = () => {
         <View>
           <MaterialCommunityIcons
             name="send-circle"
-            style={{marginBottom: 5, marginRight: 5}}
+            style={{ marginBottom: 5, marginRight: 5 }}
             size={32}
             color="#2e64e5"
           />
@@ -72,7 +72,7 @@ const ChatScreen = () => {
   };
 
   const scrollToBottomComponent = () => {
-    return(
+    return (
       <FontAwesome name='angle-double-down' size={22} color='#333' />
     );
   }

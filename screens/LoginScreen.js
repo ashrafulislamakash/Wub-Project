@@ -45,6 +45,7 @@ const LoginScreen = ({ navigation }) => {
         secureTextEntry={true}
       />
 
+
       <FormButton
         buttonTitle="Sign In"
         onPress={() => login(email, password)}
@@ -53,6 +54,7 @@ const LoginScreen = ({ navigation }) => {
       <TouchableOpacity style={styles.forgotButton} onPress={() => { }}>
         <Text style={styles.navButtonText}>Forgot Password?</Text>
       </TouchableOpacity>
+
 
       {Platform.OS === 'android' ? (
         <View>
@@ -89,28 +91,30 @@ export default LoginScreen;
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
-    paddingTop: 50
+    backgroundColor: "#E3EDF7"
   },
+
   logo: {
     height: 150,
     width: 150,
     resizeMode: 'cover',
   },
   text: {
-    fontFamily: 'Kufam-SemiBoldItalic',
+    fontFamily: 'Lato-Regular',
     fontSize: 28,
     marginBottom: 10,
     color: '#051d5f',
   },
-  navButton: {
-    marginTop: 15,
-  },
+
   forgotButton: {
-    marginVertical: 35,
+    margin: 10,
+    alignSelf: "flex-end"
   },
+
   navButtonText: {
     fontSize: 18,
     fontWeight: '500',

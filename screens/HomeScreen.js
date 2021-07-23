@@ -107,7 +107,7 @@ const HomeScreen = ({ navigation }) => {
               userId,
               userName: 'Wub',
               userImg:
-                'https://media-exp3.licdn.com/dms/image/C560BAQEU8O95OjsYOA/company-logo_200_200/0/1519912322696?e=2159024400&v=beta&t=p0KiWJG7VAn-vPb87PT3F8K-BKDoxt8kpgG7dPTCjKw',
+                'https://studybarta.files.wordpress.com/2018/04/wub-logo.png',
               postTime: postTime,
               post,
               postImg,

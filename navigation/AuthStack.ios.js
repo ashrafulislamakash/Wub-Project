@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react';
-import {View} from 'react-native';
-import {createStackNavigator} from '@react-navigation/stack';
+import React, { useState, useEffect } from 'react';
+import { View } from 'react-native';
+import { createStackNavigator } from '@react-navigation/stack';
 import SignupScreen from '../screens/SignupScreen';
 import LoginScreen from '../screens/LoginScreen';
 import OnboardingScreen from '../screens/OnboardingScreen';
@@ -24,7 +24,7 @@ const AuthStack = () => {
         setIsFirstLaunch(false);
       }
     }); // Add some error handling, also you can simply do setIsFirstLaunch(null)
-  
+
   }, []);
 
   if (isFirstLaunch === null) {
@@ -40,35 +40,19 @@ const AuthStack = () => {
       <Stack.Screen
         name="Onboarding"
         component={OnboardingScreen}
-        options={{header: () => null}}
+        options={{ header: () => null }}
       />
       <Stack.Screen
         name="Login"
         component={LoginScreen}
-        options={{header: () => null}}
+        options={{ header: () => null }}
       />
       <Stack.Screen
         name="Signup"
         component={SignupScreen}
-        options={({navigation}) => ({
-          title: '',
-          headerStyle: {
-            backgroundColor: '#f9fafd',
-            shadowColor: '#f9fafd',
-            elevation: 0,
-          },
-          headerLeft: () => (
-            <View style={{marginLeft: 10}}>
-              <FontAwesome.Button 
-                name="long-arrow-left"
-                size={25}
-                backgroundColor="#f9fafd"
-                color="#333"
-                onPress={() => navigation.navigate('Login')}
-              />
-            </View>
-          ),
-        })}
+        screenOptions={{
+          headerShown: false
+        }}
       />
     </Stack.Navigator>
   );

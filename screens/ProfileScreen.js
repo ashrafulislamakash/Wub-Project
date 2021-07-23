@@ -99,12 +99,15 @@ const ProfileScreen = ({ navigation, route }) => {
         showsVerticalScrollIndicator={false}>
         <Image
           style={styles.userImg}
-          source={{ uri: userData ? userData.userImg || 'https://lh5.googleusercontent.com/-b0PKyNuQv5s/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclxAM4M1SCBGAO7Rp-QP6zgBEUkOQ/s96-c/photo.jpg' : 'https://lh5.googleusercontent.com/-b0PKyNuQv5s/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclxAM4M1SCBGAO7Rp-QP6zgBEUkOQ/s96-c/photo.jpg' }}
+          source={{
+            uri: userData ? userData.userImg || 'https://studybarta.files.wordpress.com/2018/04/wub-logo.png'
+              : 'https://studybarta.files.wordpress.com/2018/04/wub-logo.png'
+          }}
         />
         <Text style={styles.userName}>{userData ? userData.fname || 'Test' : 'Test'} {userData ? userData.lname || 'User' : 'User'}</Text>
         {/* <Text>{route.params ? route.params.userId : user.uid}</Text> */}
         <Text style={styles.aboutUser}>
-          {userData ? userData.about || 'No details added.' : ''}
+          {userData ? userData.about || 'No details added.' : 'No details added.'}
         </Text>
         <View style={styles.userBtnWrapper}>
           {route.params ? (
@@ -160,7 +163,7 @@ export default ProfileScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: "#E3EDF7",
     padding: 20,
   },
   userImg: {

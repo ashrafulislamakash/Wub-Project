@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { View, StyleSheet } from 'react-native';
 
 import {
@@ -24,10 +24,27 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import { COLORS } from '../constants';
 
 import { AuthContext } from '../navigation/AuthProvider';
+import TeacherPortal from '../screens/TeacherPortal'
+
+
+// const getUser = async () => {
+//     await firestore()
+//         .collection('users')
+//         .doc(route.params ? route.params.userId : user.uid)
+//         .get()
+//         .then((documentSnapshot) => {
+//             if (documentSnapshot.exists) {
+//                 console.log('User Data', documentSnapshot.data());
+//                 setUserData(documentSnapshot.data());
+//             }
+//         })
+// }
+
 
 export function DrawerContent(props) {
 
     const { user, logout } = useContext(AuthContext);
+    const [userData, setUserData] = useState(null);
 
 
     return (
@@ -37,14 +54,13 @@ export function DrawerContent(props) {
                     <View style={styles.userInfoSection}>
                         <View style={{ flexDirection: 'row', marginTop: 15 }}>
                             <Avatar.Image
-                                source={{
-                                    uri: "https://avatars.githubusercontent.com/u/71764995?v=4"
-                                }}
+                                source={{ uri: userData ? userData.userImg || 'https://studybarta.files.wordpress.com/2018/04/wub-logo.png' : 'https://studybarta.files.wordpress.com/2018/04/wub-logo.png' }}
+
                                 size={60}
                             />
                             <View style={{ marginLeft: 15, flexDirection: 'column' }}>
-                                <Title style={styles.title}>Ashraful Islam</Title>
-                                <Caption style={styles.caption}>Students of CSE</Caption>
+                                <Title style={styles.title}>{userData ? userData.fname || 'Test' : 'Test'} {userData ? userData.lname || 'User' : 'User'}</Title>
+                                <Caption style={styles.caption}> {userData ? userData.about || 'No details added.' : 'No details added.'}</Caption>
                             </View>
                         </View>
 
@@ -66,25 +82,25 @@ export function DrawerContent(props) {
                             icon={({ color, size }) => (
                                 <MaterialCommunityIcons
                                     name="home"
-                                    color={color}
-                                    size={size}
+                                    color={COLORS.TextColor}
+                                    size={25}
                                 />
                             )}
                             label="Home"
-                            onPress={() => { props.navigation.navigate() }}
+                            onPress={() => { props.navigation.navigate("FindFriends") }}
                         />
 
 
                         <DrawerItem
                             icon={({ color, size }) => (
-                                <Icon
-                                    name="account-outline"
-                                    color={color}
-                                    size={size}
+                                <FontAwesome5
+                                    name="user-alt"
+                                    color={COLORS.TextColor}
+                                    size={20}
                                 />
                             )}
                             label="Profile"
-                            onPress={() => { props.navigation.navigate() }}
+                            onPress={() => { props.navigation.navigate("FindFriends") }}
                         />
 
 
@@ -93,24 +109,24 @@ export function DrawerContent(props) {
                             icon={({ color, size }) => (
                                 <FontAwesome5
                                     name="user-friends"
-                                    color={color}
-                                    size={size}
+                                    color={COLORS.TextColor}
+                                    size={18}
                                 />
                             )}
                             label="Find Friend"
-                            onPress={() => { props.navigation.navigate() }}
+                            onPress={() => { props.navigation.navigate("FindFriends") }}
                         />
 
                         <DrawerItem
                             icon={({ color, size }) => (
                                 <Ionicons
                                     name="globe-outline"
-                                    color={color}
-                                    size={size}
+                                    color={COLORS.TextColor}
+                                    size={20}
                                 />
                             )}
                             label="Wub"
-                            onPress={() => { props.navigation.navigate() }}
+                            onPress={() => { props.navigation.navigate("FindFriends") }}
                         />
 
 
@@ -118,48 +134,48 @@ export function DrawerContent(props) {
                             icon={({ color, size }) => (
                                 <FontAwesome5
                                     name="user-graduate"
-                                    color={color}
-                                    size={size}
+                                    color={COLORS.TextColor}
+                                    size={20}
                                 />
                             )}
                             label="Student Portal"
-                            onPress={() => { props.navigation.navigate() }}
+                            onPress={() => { props.navigation.navigate("FindFriends") }}
                         />
 
                         <DrawerItem
                             icon={({ color, size }) => (
                                 <FontAwesome5
                                     name="user-tie"
-                                    color={color}
-                                    size={size}
+                                    color={COLORS.TextColor}
+                                    size={20}
                                 />
                             )}
                             label="Teacher Portal"
-                            onPress={() => { props.navigation.navigate() }}
+                            onPress={() => { props.navigation.navigate('TeacherPortal') }}
                         />
 
                         <DrawerItem
                             icon={({ color, size }) => (
                                 <Feather
                                     name="book"
-                                    color={color}
-                                    size={size}
+                                    color={COLORS.TextColor}
+                                    size={25}
                                 />
                             )}
                             label="Book Sell"
-                            onPress={() => { props.navigation.navigate() }}
+                            onPress={() => { props.navigation.navigate("FindFriends") }}
                         />
 
                         <DrawerItem
                             icon={({ color, size }) => (
-                                <Icon
-                                    name="account-check-outline"
-                                    color={color}
-                                    size={size}
+                                <MaterialCommunityIcons
+                                    name="tools"
+                                    color={COLORS.TextColor}
+                                    size={20}
                                 />
                             )}
                             label="Unitconverter"
-                            onPress={() => { props.navigation.navigate() }}
+                            onPress={() => { props.navigation.navigate("FindFriends") }}
                         />
                     </Drawer.Section>
 
@@ -182,8 +198,8 @@ export function DrawerContent(props) {
                     icon={({ color, size }) => (
                         <Icon
                             name="exit-to-app"
-                            color={color}
-                            size={size}
+                            color={COLORS.TextColor}
+                            size={25}
                         />
                     )}
                     label="Sign Out"
