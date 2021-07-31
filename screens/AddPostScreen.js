@@ -110,7 +110,8 @@ const AddPostScreen = () => {
       );
 
       setTransferred(
-        Math.round(taskSnapshot.bytesTransferred / taskSnapshot.totalBytes) * 100,
+        Math.round(taskSnapshot.bytesTransferred / taskSnapshot.totalBytes) *
+        100,
       );
     });
 
@@ -122,10 +123,10 @@ const AddPostScreen = () => {
       setUploading(false);
       setImage(null);
 
-      Alert.alert(
-        'Image uploaded!',
-        'Your image has been uploaded to the Firebase Cloud Storage Successfully!',
-      );
+      // Alert.alert(
+      //   'Image uploaded!',
+      //   'Your image has been uploaded to the Firebase Cloud Storage Successfully!',
+      // );
       return url;
 
     } catch (e) {
@@ -180,14 +181,13 @@ export default AddPostScreen;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex:1,
+    justifyContent:"center",
+    alignItems:'center'
   },
   actionButtonIcon: {
     fontSize: 20,
     height: 22,
     color: 'white',
-    bottom: 50
   },
 });

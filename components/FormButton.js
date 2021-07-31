@@ -1,17 +1,16 @@
 import React from 'react';
 import { Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { windowHeight, windowWidth } from '../utils/Dimentions';
+
 import LinearGradient from 'react-native-linear-gradient';
 
 const FormButton = ({ buttonTitle, ...rest }) => {
   return (
-    <LinearGradient style={styles.buttonContainer}
-      colors={['#50CAFF', '#0478FF']}>
-      <TouchableOpacity  {...rest}>
-
+    <TouchableOpacity style={styles.buttonContainer}  {...rest}>
+      <LinearGradient style={styles.buttonContainer}
+        colors={['#50CAFF', '#0478FF']}>
         <Text style={styles.buttonText}>{buttonTitle}</Text>
-      </TouchableOpacity>
-    </LinearGradient>
+      </LinearGradient >
+    </TouchableOpacity >
   );
 };
 

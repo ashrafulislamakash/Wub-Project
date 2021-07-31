@@ -15,6 +15,8 @@ import AddPostScreen from '../screens/AddPostScreen';
 import MessagesScreen from '../screens/MessagesScreen';
 import EditProfileScreen from '../screens/EditProfileScreen';
 
+// import ProfileStack from "../navigation/ProfileStack"
+
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -121,7 +123,7 @@ const FeedStack = ({ navigation }) => (
     />
     <Stack.Screen
       name="HomeProfile"
-      component={ProfileScreen}
+      component={ProfileStack}
       options={{
         title: '',
         headerTitleAlign: 'center',
@@ -155,6 +157,7 @@ const MessageStack = ({ navigation }) => (
   </Stack.Navigator>
 );
 
+
 const ProfileStack = ({ navigation }) => (
   <Stack.Navigator>
     <Stack.Screen
@@ -187,7 +190,7 @@ const AppStack = () => {
       ? route.state.routes[route.state.index].name
       : '';
 
-    if (routeName === 'MessageStack') {
+    if (routeName === 'Home') {
       return false;
     }
     return true;
@@ -216,7 +219,10 @@ const AppStack = () => {
       <Tab.Screen
         name="Home"
         component={FeedStack}
-        options={{
+        options={({ route }) => ({
+
+          tabBarVisible: getTabBarVisibility(route),
+
           tabBarIcon: ({ focused }) => (
             <View style={{ alignItems: "center", justifyContent: 'center' }}>
               <Image
@@ -235,14 +241,14 @@ const AppStack = () => {
               >Home</Text>
             </View>
           )
-        }}
+        })
+        }
 
       />
       <Tab.Screen
         name="Messages"
         component={MessageStack}
-        options={({ route }) => ({
-          tabBarVisible: getTabBarVisibility(route),
+        options={{
 
           tabBarIcon: ({ focused }) => (
             <View style={{ alignItems: "center", justifyContent: 'center' }}>
@@ -262,7 +268,7 @@ const AppStack = () => {
               > Love</Text>
             </View>
           )
-        })}
+        }}
       />
 
 
@@ -349,13 +355,13 @@ export default AppStack;
 
 const styles = StyleSheet.create({
   shadow: {
-    shadowColor: "#FFFFFF",
+    shadowColor: "#7F5DF0",
     shadowOffset: {
       width: 0,
-      height: 5
+      height: 10
     },
-    shadowOpacity: 0.34,
-    shadowRadius: 6.27,
-    elevation: 10,
+    shadowOpacity: 0.25,
+    shadowRadius: 3.5,
+    elevation: 5,
   }
 })

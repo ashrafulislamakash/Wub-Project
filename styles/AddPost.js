@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const InputWrapper = styled.View`
     flex: 1;
-    justify-content: center;
     align-items: center;
     width: 100%;
     background-color: #E3EDF7;
@@ -10,7 +9,6 @@ export const InputWrapper = styled.View`
 `;
 
 export const InputField = styled.TextInput`
-    justify-content: center;
     align-items: center;
     font-size: 24px;
     text-align: center;
